@@ -8,7 +8,7 @@
 
 body {
 
-  background-color: #A7B091;
+  background-image: url(http://www.solidbackgrounds.com/images/two/2560x1600/2560x1600-lavender-web-lavender-blue-two-color-background.jpg);
   color: white;
   text-shadow: 0 1px 0 #ccc,
   0 2px 0 #c9c9c9,
@@ -25,6 +25,7 @@ body {
 }
 
 a {
+  font-size:15px;
   color: white;
   text-shadow: 1px 1px 1px #000,
   3px 3px 5px blue;
@@ -35,14 +36,25 @@ a:hover {
 }
 
 ul, li {
+  font-size: 30px;
   text-shadow: 1px 1px 1px #000,
   3px 3px 5px blue;
 }
 
 #task_description, #list_name {
-  background-color: #A7B091;
+  background-color: #8f959e;
 }
 
 input {
-  background: #A7B091;
+  background: #8f959e;
+}
+
+.jumbotron {
+  background-color:#b7beca;
+}
+
+.links a {
+  font-size: 20px;
+  float: left;
+  padding-right: 25px;
 }
